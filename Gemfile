@@ -42,3 +42,20 @@ gem 'jbuilder', '~> 1.2'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'bootstrap-sass', '>= 3.0.0.0'
+gem 'devise'
+gem 'figaro'
+
+group :development do
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+  gem 'rails_layout'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'minitest-spec-rails'
+  gem 'minitest-wscolor'
+end
+
