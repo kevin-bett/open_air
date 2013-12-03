@@ -1,4 +1,6 @@
 OpenAir::Application.routes.draw do
+  resources :flights
+
   root :to => "home#index"
   devise_for :users, :controllers => {:registrations => "registrations"}
   resources :users

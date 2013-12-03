@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  departs_at: 2013-12-02 17:52:05
+  airport: MyString
+  departs_from: MyString
+  Arrives_at: 2013-12-02 17:52:05
+  Seats_remaining: 1
+
+two:
+  departs_at: 2013-12-02 17:52:05
+  airport: MyString
+  departs_from: MyString
+  Arrives_at: 2013-12-02 17:52:05
+  Seats_remaining: 1
